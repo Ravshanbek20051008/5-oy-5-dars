@@ -109,3 +109,6 @@ button.addEventListener("click", function (event) {
   wrapper.appendChild(card);
   resetForm();
 });
+
+// wrapperni ichiga tushme qoldi
+// agar vaqtiz bo'sa nima qilishni yozib qo'ysez o'g'nab qo'yaman
