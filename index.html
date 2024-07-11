@@ -3,20 +3,184 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
+    <style>
+      #blok {
+        width: 1920px;
+        border-radius: 40px;
+        background-image: url(img/Blend\ Group\ 1.png);
+        background-color: #131313;
+      }
+      #form {
+        display: flex;
+        flex-direction: column;
+        width: 1393px;
+        margin: 50px auto;
+        background-color: #242424;
+        margin-bottom: 30px;
+        color: #ffffff;
+        margin-left: 527px;
+        border-radius: 0px 40px 40px 0px;
+      }
+      #title {
+        margin-top: 106px;
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        margin-bottom: 10px;
+        margin-left: 299px;
+      }
+      #title_p {
+        width: 625px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #7f7f7f;
+        margin-bottom: 60px;
+        margin-left: 299px;
+      }
+      #VJ {
+        width: 800px;
+        margin-left: 297px;
+        border-radius: 4px;
+        background-color: #242424;
+        border: 1px solid #4b72c2;
+        margin-bottom: 30px;
+        padding: 12px 0px 8px 20px;
+      }
+      #Rathod {
+        width: 800px;
+        margin-left: 297px;
+        border-radius: 4px;
+        background-color: #242424;
+        border: 1px solid #4b72c2;
+        margin-bottom: 30px;
+        padding: 12px 0px 8px 20px;
+      }
+      #MobileNumber {
+        width: 800px;
+        margin-left: 297px;
+        border-radius: 4px;
+        background-color: #242424;
+        border: 1px solid #4b72c2;
+        margin-bottom: 30px;
+        padding: 12px 0px 8px 20px;
+      }
+      #EmailAddress {
+        width: 800px;
+        margin-left: 297px;
+        border-radius: 4px;
+        background-color: #242424;
+        border: 1px solid #4b72c2;
+        margin-bottom: 30px;
+        padding: 12px 0px 8px 20px;
+      }
+      #Password {
+        width: 800px;
+        margin-left: 297px;
+        border-radius: 4px;
+        background-color: #242424;
+        border: 1px solid #4b72c2;
+        margin-bottom: 30px;
+        padding: 12px 0px 8px 20px;
+      }
+      #ConfirmPassword {
+        width: 800px;
+        margin-left: 297px;
+        border-radius: 4px;
+        background-color: #242424;
+        border: 1px solid #4b72c2;
+        padding: 12px 0px 8px 20px;
+        margin-bottom: 10px;
+      }
+      #VJ::placeholder {
+        color: white;
+      }
+      #Rathod::placeholder {
+        color: white;
+      }
+      /* #MobileNumber::placeholder {
+        color: white;
+      }
+      #EmailAddress::placeholder {
+        color: white;
+      }
+      #Password::placeholder {
+        color: white;
+      }
+      #ConfirmPassword::placeholder {
+        color: white;
+      } */
+
+      #title_h3 {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #7f7f7f;
+        margin-left: 337px;
+        margin-bottom: 50px;
+      }
+      #button {
+        width: 200px;
+        height: 48px;
+        border-radius: 4px;
+        background-color: #4b72c2;
+        padding: 12px 64px;
+        border: none;
+        color: #ffffff;
+        margin-left: 295px;
+        margin-bottom: 50px;
+      }
+      #from_p2 {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 295px;
+        color: #7f7f7f;
+        margin-bottom: 106px;
+      }
+      #ahref {
+        color: #4b72c2;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
-    <from id="from">
-      <input type="text" id="name" placeholder="Enter name..." />
-      <input type="number" id="age" placeholder="Enter age..." />
-      <select title="kjj" name="hjkj" id="nationality">
-        <option value="uzbek">uzbek</option>
-        <option value="russian">russian</option>
-        <option value="english">english</option>
-      </select>
-      <textarea id="description" placeholder="Enter description"></textarea>
-      <button id="button">send</button>
-    </from>
+    <div id="blok">
+      <div id="form">
+        <h1 id="title">Set up your account</h1>
+        <div id="title_p">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry.
+        </div>
+        <input type="text" id="VJ" placeholder=" VJ" />
+        <input type="number" id="Rathod" placeholder=" Rathod" />
+        <input type="number" id="MobileNumber" placeholder=" Mobile Number" />
+        <input type="text" id="EmailAddress" placeholder=" Email Address" />
+        <input type="number" id="Password" placeholder=" Password" />
+        <input
+          type="number"
+          id="ConfirmPassword"
+          placeholder=" Confirm Password"
+        />
+        <h3 id="title_h3">Confirm Password</h3>
+
+        <button id="button">Continue</button>
+        <p id="from_p2">
+          Already have an account ? <a  id="ahref"">Sign in-></a>
+        </p>
+      </div>
+    </div>
     <script src="js/index.js"></script>
   </body>
 </html>
